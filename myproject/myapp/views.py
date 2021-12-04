@@ -162,3 +162,8 @@ def Search(request):
         }
 
         return render(request, 'myapp/search.html', params)
+
+
+# 単純なページ推移、トレーニングページへ
+def PrivacyView(request):
+    return render(request, 'myapp/training.html')
